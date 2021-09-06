@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": { "value": "aks-test-deploy" },
+        "location": {"value": "centralus" },
+        "dnsPrefix": { "value": "aks-test-deploy-dns" },
+        "agentCount": { "value": 3 },
+        "agentVMSize": { "value": "Standard_DS2_v2" },
+		"osDiskSizeGB": { "value": 128},
+        "servicePrincipalClientId": {  "value": "ca218786-d2f1-4f62-92a1-5f047fca74a9" },
+        "servicePrincipalClientSecret": { "value": "3r1c9Wt7.FrdpciDXUzJr83YV~U6JFZZs~" },
+        "kubernetesVersion": { "value": "1.20.9" },
+        "networkPlugin": { "value": "kubenet" },
+        "omsWorkspaceName": { "value": "" },
+        "enableRBAC": { "value": true },
+        "enableOmsAgent": { "value": false },
+        "enableHttpApplicationRouting": { "value": false }
+    }
+}

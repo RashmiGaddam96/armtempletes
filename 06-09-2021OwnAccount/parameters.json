@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "resourceName": { "value": "aks-test-deploy" },
-        "location": {"value": "centralus" },
+        "location": {"value": "centralindia" },
         "dnsPrefix": { "value": "aks-test-deploy-dns" },
         "agentCount": { "value": 3 },
         "agentVMSize": { "value": "Standard_DS2_v2" },
